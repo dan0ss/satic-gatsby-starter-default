@@ -1,0 +1,621 @@
+.container {
+  max-width: 1280px !important;
+  padding: 20px 2rem;
+}
+
+.fw3 {
+  font-weight: 300 !important;
+}
+
+.fw4 {
+  font-weight: 400 !important;
+}
+
+.fw5 {
+  font-weight: 500 !important;
+}
+
+.fw6 {
+  font-weight: 600 !important;
+}
+
+.fw7 {
+  font-weight: 700 !important;
+}
+
+/* --- Global Typescale --- */
+p,
+li  {
+  font-size: 1.125rem;
+}
+html,
+body {
+  font-size: 15px;
+  color: #3c3c3c;
+}
+
+.f1 {
+  font-size: 1.75rem;
+  font-weight: 700;
+}
+
+.f2 {
+  font-size: 1.5rem;
+  font-weight: 700;
+  margin-bottom: 0.5rem;
+}
+
+.f3 {
+  font-size: 1.25rem;
+  font-weight: 700;
+}
+
+.f4 {
+  font-size: .875rem;
+  font-weight: 700;
+}
+
+.f5 {
+  font-size: .75rem;
+}
+
+.f6 {
+  font-size: .75rem;
+}
+
+@media screen and (min-width: 900px) and (max-width: 1200px) {
+
+  html,
+  body {
+    font-size: 16px;
+  }
+
+  .f1 {
+    font-size: 2.75rem;
+    font-weight: 700;
+  }
+
+  .f2 {
+    font-size: 2.25rem;
+    font-weight: 700;
+  }
+
+  .f3 {
+    font-size: 1.5rem;
+    font-weight: 700;
+  }
+
+  .f4 {
+    font-size: 1.25rem;
+    font-weight: 700;
+  }
+
+  .f5 {
+    font-size: 1rem;
+  }
+
+  .f6 {
+    font-size: .875rem;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+
+  html,
+  body {
+    font-size: 16px;
+  }
+
+  .f1 {
+    font-size: 2.825rem;
+    font-weight: 700;
+  }
+
+  .f2 {
+    font-size: 2.25rem;
+    font-weight: 700;
+  }
+
+  .f3 {
+    font-size: 1.825rem;
+    font-weight: 700;
+  }
+
+  .f4 {
+    font-size: 1.375rem;
+    font-weight: 700;
+  }
+
+  .f5 {
+    font-size: 1.125rem;
+  }
+
+  .f6 {
+    font-size: .875rem;
+  }
+}
+
+li  {
+  font-size: 1.25rem;
+  font-weight: 500;
+  margin-bottom: 0.375rem;
+}
+/* --- Entry Banner --- */
+.pre-entry {}
+
+section > .hero-body {
+  margin-top: 2rem;
+}
+
+.entry-text h3,
+.entry-text h4 {
+  color: #333;
+}
+/* --- Tile Row Wrap Layout -- */
+.tile-row {
+  display: block !important;
+  position: relative;
+  width: 100%;
+  height: 60vh;
+  min-height: 18rem;
+  background-color: #1f1f1f;
+  color: white;
+
+}
+
+.tile-text {
+  display: block;
+  position: static;
+  margin: auto !important;
+  max-width: 1320px;
+
+}
+
+.tile-row-left {
+  background: #1f1f1f;
+}
+
+.tile-row-right {
+  background: #1f1f1f;
+}
+
+
+
+/* --- Tile Row Left --- */
+.tile-wrap__right {
+  display: inline-block;
+  justify-content: center;
+  margin: auto 0;
+  width: 50%;
+  position: relative;
+  left: 0;
+  top: 0;
+  padding: 20px 3.5rem;
+
+}
+
+.tile-text--left {
+  display: flex;
+  justify-content: flex-end;
+  width: 100%;
+  height: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  right: 0;
+  position: static;
+}
+
+
+.tile-wrap__left {
+  display: flex;
+  justify-content: flex-end;
+  margin: auto 0;
+  width: 50%;
+  position: relative;
+  padding: 20px 3.5rem;
+  right: 0;
+  top: 0;
+}
+
+.tile-text--inner__left {
+  display: grid;
+  margin: auto auto auto 0;
+  width: 100%;
+}
+
+.tile-text--right {
+  display: grid;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  position: static;
+
+}
+
+
+
+.tile-text--inner__right {
+  display: grid;
+  margin: auto 0 auto auto;
+  width: 100%;
+}
+
+/* 
+      >>> - Tile Pic - <<< 
+  */
+.tile-pic--right {
+  display: flex;
+  position: absolute;
+  width: 50%;
+  height: 100%;
+  object-fit: cover;
+  right: 0;
+  z-index: 1000;
+
+}
+
+.tile-pic--left {
+  display: flex;
+  position: absolute;
+  width: 50%;
+  height: 100%;
+  object-fit: cover;
+  left: 0;
+
+
+}
+
+.tile-pic img,
+.tile-pic source {
+  margin: auto !important;
+  display: flex;
+  object-fit: cover;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+}
+
+@media screen and (max-width: 690px) {
+
+  .tile-pic--left source,
+  .tile-pic--left img,
+  .tile-pic--right source,
+  .tile-pic--right img,
+  .tile-pic {
+    display: inline-block !important;
+    position: relative !important;
+    max-width: 100% !important;
+    width: 100% !important;
+    margin: 0 0 -5px !important;
+    padding: 0 !important;
+    bottom: 0
+  }
+
+
+  .tile-row,
+  .tile-text,
+  .tile-inner {
+    display: block !important;
+    height: auto !important;
+    margin: auto !important;
+    width: auto !important;
+    max-width: 100%;
+  }
+
+  .tile-pic--left {
+    display: block !important;
+    position: static !important;
+
+  }
+
+  .tile-wrap--left {
+    display: block !important;
+    position: static !important;
+
+  }
+
+  .tile-wrap,
+  .tile-inner {
+    display: block !important;
+    padding: 20px 0 !important;
+    margin: auto !important;
+    width: 90% !important;
+  }
+
+
+
+  .feat-section {
+    background: #fff;
+    padding: 160px 1.5rem;
+  }
+
+  .feat-column {}
+}
+
+#ipl-treatments {
+  background: #f9f9f9 !important;
+  padding: 3rem 1.5rem;
+}
+
+#ipl-treatments .feat-row h3 {
+  text-align: left !important;
+}
+
+
+.entry-text {
+  background: #f9f9f9;
+}
+
+/* --- Make Tiles Responsive --- */
+.tc {
+  text-align: center !important;
+}
+
+
+.feat-row {
+  position: static;
+  display: block;
+  margin: 0;
+  height: auto;
+  padding: 0.5rem 2rem;
+}
+
+.feat-column {
+  background-color: #f9f9f9;
+  margin: 2.5rem 1rem 0 !important;
+  padding: 0;
+  box-shadow: 0 2px 6px 0 rgba(0, 0, 0, 0.2), 0 2px 4px 0 rgba(0, 0, 0, 0.12);
+  transition: all 0.5s cubic-bezier(.25, .8, .25, 1);
+  /*  box-shadow: 5px 9px 12px -8px rgba(40,40,40,0.25); */
+}
+
+.feat-column:hover {
+  box-shadow: 0 14px 28px rgba(0, 0, 0, 0.26), 0 10px 10px rgba(0, 0, 0, 0.23);
+  transform: scale(1.05); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+}
+
+.feat-box {
+  display: block;
+  padding: 0 0 1rem 0 !important;
+}
+
+.feat-box--titles {
+  display: inline-block;
+  width: auto;
+  margin: 0;
+  height: auto;
+  position: relative;
+  font-weight: 600;
+  width: 100%;
+  padding: 0.5rem 1.5rem;
+}
+
+.feat-box--text {
+  text-align: left;
+  width: 100%;
+  padding: 0 1.5rem 1rem;
+}
+
+.feat-box-title--wrap {
+  height: auto;
+
+  text-align: center !important;
+  display: inline-table;
+  vertical-align: middle;
+}
+
+.feat-pic {
+  height: auto;
+  display: inline-block;
+  object-fit: cover;
+
+}
+
+.feat-pic img,
+.feat-pic source {
+  object-fit: cover;
+  height: 13rem;
+  width: 200%;
+  object-position: center;
+
+}
+
+.navbar {
+  background:  rgba(0,0,0,0.85);
+  position: fixed;
+  width: 100%;
+  z-index: 999999;
+}
+
+#logo {
+  height: 100% !important;
+  max-height: 60px;
+  display: inline-block;
+}
+#nav-inner {
+  max-width: 1200px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+}
+.book-online {
+  background-color: #3273dc !important;
+}
+
+.navbar-burger {
+  margin: 0;
+  float: right;
+}
+
+#navbarBasicExample {
+ max-width: 500px;
+ margin: auto 0 auto auto;
+ background: none;
+ font-weight: 700 !important;
+}
+.navbar-item {
+  color: white;
+  font-weight: 600;
+}
+
+.paragraph {
+  margin:1.5rem 0;
+}
+
+.bullets {
+  list-style: disc;
+  list-style-type: disc ;
+  list-style-position: unset;
+  margin-left: 3rem;
+}
+#about-ipl h4,
+#about-ipl h3 {
+  margin: 1rem 0 0.5rem;
+}
+
+#contact-us {
+  background: #1f1f1f;
+  color: white;
+}
+
+#gmap > * {
+  width: 100%;
+}
+
+
+.price-table {
+  margin: 0 0 2rem;
+  display: block;
+}
+@media screen and (min-width: 820px) {
+  .price-table > .price-table__men {
+    max-width: 50% !important;
+    width: 100%;
+    display: flex;
+    min-width: 320px;
+  
+  }
+  .price-table {
+    margin: 1rem 0;
+    display: block;
+  }
+}
+.price-table > .price-table__men {
+  max-width: 100%;
+  min-width: none;
+  width: 100%;
+  display: block;
+  margin: auto;
+}
+
+
+.prices-heading{
+  color: #3f3f3f;
+}
+
+
+.price-table >table>thead>tr>th,
+.price-table >table>tbody>tr>td,
+.price-table >table {
+  font-size: 1em !important;
+  letter-spacing: 0.02em;
+  border: none;
+}
+#ipl-prices {
+  margin-top: -2rem;
+  background: #f2f2f2;
+}
+.price-table >table {
+  border-radius: 2px;
+  margin: 1em auto;
+  background: #f8f8f8;
+  -webkit-box-shadow: 0 2px 8px rgba(0, 0, 0, .16);
+  -moz-box-shadow: 0 2px 8px rgba(0, 0, 0, .16);
+  box-shadow: 0 2px 8px rgba(0, 0, 0, .16);
+}
+
+#ipl-prices > div:nth-child(2) > div > table > thead > tr > th:nth-child(2) {
+  line-height: 1.5;
+  
+  
+}
+
+.price-table >table>thead>tr>th,
+.price-table >table>tbody>tr>td {
+  padding: 1% 2% 1% 2%;
+  width: 80%;
+}
+
+
+
+.price-table >table>tbody>tr>td:nth-of-type(2) {
+  text-align: right;
+}
+
+
+.price-table >table>thead>tr>th:nth-child(2) {
+  text-indent: 1.5em;
+  text-align: right;
+}
+
+.price-table >table>thead>tr>th {
+  background: #202020;
+  color: white;
+  border: none;
+  font-weight: 600 !important;
+}
+
+.price-table >table>tbody>tr:nth-of-type(2n+2) {
+  background: #f0f0f0;
+}
+
+
+
+
+.price-table  {
+  line-height: 1.5;
+  color: #263238;
+  font-size: 18px !important;
+  letter-spacing: 0.2pt;
+  font-family: 'Nunito Sans',-apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif!important;
+  -webkit-font-smoothing: auto;
+  box-sizing: border-box;
+  margin: 2em 0;
+}
+
+#ipl-prices table {
+  line-height: 1.5;
+  color: #263238;
+  font-family: 'Nunito Sans',-apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif!important;
+  -webkit-font-smoothing: auto;
+  box-sizing: border-box;
+  width: 80%;
+  font-size: 1em !important;
+  letter-spacing: 0.02em;
+  border: none;
+  border-radius: 2px;
+  margin: 1em auto;
+  background: #f8f8f8;
+  box-shadow: 0 2px 8px rgba(0,0,0,.16);
+}
+
+#ipl-prices table > thead {
+  line-height: 1.5;
+  color: #263238;
+  font-family: 'Nunito Sans',-apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif!important;
+  -webkit-font-smoothing: auto;
+  font-size: 1em !important;
+  letter-spacing: 0.02em;
+  box-sizing: border-box;
+}
+
+#ipl-prices table > tbody {
+  line-height: 1.5;
+  color: #263238;
+  font-family: 'Nunito Sans',-apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif!important;
+  -webkit-font-smoothing: auto;
+  font-size: 1em !important;
+  letter-spacing: 0.02em;
+  box-sizing: border-box;
+}

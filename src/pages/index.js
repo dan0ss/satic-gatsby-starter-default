@@ -10,7 +10,10 @@ const IndexPage = () => (
     <SEO title="Home" />
 
     <section class="hero is-medium  no-gap-v"
-      style="background-size: cover; background-image: url('/ipl-images/ipl-hero.jpg')">
+      style={{
+        backgroundSize: 'cover', 
+        backgroundImage: url('/ipl-images/ipl-hero.jpg')
+        }}>
       <div class="hero-body">
         <div class="container">
           <div class="columns">
@@ -76,7 +79,7 @@ const IndexPage = () => (
       <div class="feat-container container">
         <div class="feat-heading">
           <h2 class="f2 tc pv2">What Conditions Does IPL Treat?</h2>
-          <h3 style="text-align:center !important;" class="f4 fw4 tc">This revolutionary technology that treats broken
+          <h3 class="f4 fw4 tc">This revolutionary technology that treats broken
             capillaries, uneven pigmentation, wrinkles, enlarged pores, sun damage, unwanted hair and much more.</h3>
         </div>
         <div class="feat-row">
@@ -210,7 +213,7 @@ const IndexPage = () => (
 
     <section id="tile-row-1" class="tile-row tile-row-left">
 
-      <div style="z-index: -100000" class="tile-text tile-text--left">
+      <div class="tile-text tile-text--left">
         <div class="tile-wrap tile-wrap__left">
           <div class="tile-inner tile-text--inner__left">
             <h2 class="f2">How Does IPL Work?</h2>
@@ -223,7 +226,7 @@ const IndexPage = () => (
           </div>
         </div>
 
-        <picture style="z-index: 100000" class="tile-pic tile-pic--left">
+        <picture class="tile-pic tile-pic--left">
           <source srcset="/ipl-images/leg.jpg 1x" />
           <source srcset="/ipl-images/webp/leg.webp" />
           <img src="/ipl-images/leg.jpg" alt="leg being treated with ipl machine" />
@@ -426,11 +429,11 @@ const IndexPage = () => (
                   <td data-title="Price">300</td>
                 </tr>
                 <tr>
-                  <td data-title="Treatment">Men's Chest &amp; Abdomen</td>
+                  <td data-title="Treatment">Men's Chest &amp, Abdomen</td>
                   <td data-title="Price">500</td>
                 </tr>
                 <tr>
-                  <td data-title="Treatment">Men's Neck &amp; Shoulders</td>
+                  <td data-title="Treatment">Men's Neck &amp, Shoulders</td>
                   <td data-title="Price">250</td>
                 </tr>
 

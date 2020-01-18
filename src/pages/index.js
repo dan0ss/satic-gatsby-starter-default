@@ -10,30 +10,33 @@ const IndexPage = () => (
     <SEO title="Home" />
 
     <section class="hero is-medium  no-gap-v"
-      style={{
+      style={{ 
         backgroundSize: 'cover', 
         backgroundImage: url('/ipl-images/ipl-hero.jpg')
-        }}>
+        }}
+        >
+
       <div class="hero-body">
         <div class="container">
           <div class="columns">
             <div class="column">
+
               <h1 class="title f1 fw7 is-1">
                 Perth IPL Centre
               </h1>
               <h2 class="f3 fw4">
                 Fast, Effective & Painfree IPL Hair Removal & Skin Rejuvenation
               </h2>
+
             </div>
           </div>
         </div>
       </div>
     </section>
-
-
     
     
       <section class="entry-text">
+
         <div class="feat-container container">
           <div class="feat-columns columns">
             <div class="tc pv4 column">
@@ -42,23 +45,23 @@ const IndexPage = () => (
             </div>
           </div>
           </div>
+
       </section>
-    
 
     
     <section id="what-is-ipl" class="tile-row tile-row-right">
 
-      
       <div class="tile-text tile-text--right">
-
         <div class="tile-wrap tile-wrap__right">
           <div class="tile-inner tile-text--inner__right">
+
             <h2 class="f2">What Are The Benefits of IPL?</h2>
             <p>
               IPL is simple, safe and extremely effective. This revolutionary technology is more advanced than laser
               treatment as it can treat a range of skin conditions simultaneously, such as broken capillaries, uneven
               pigmentation, wrinkles, enlarged pores, sun damage and unwanted hair.
             </p>
+
           </div>
         </div>
 

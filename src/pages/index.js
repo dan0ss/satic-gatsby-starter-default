@@ -7,69 +7,8 @@ import SEO from "../components/seo"
 
 const IndexPage = () => (
   <Layout>
-<head>
-  <meta charset="utf-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <SEO title="Home" />
-  <meta name="description" content="The Perth IPL Centre offers fast, effective and painfree IPL hair removal and skin rejuvenation">
-  <link rel="canonical" href="https://www.perthiplcentre.com.au/" />
-  <link rel="icon" href="/ipl-images/perth-ipl-logo.svg" sizes="any" type="image/svg+xml"/>
-  <link rel="sitemap" type="application/xml" href="/sitemap.xml">
-  <meta name="theme-color" content="#1f1f1f" />
-  
-</head>
+    <SEO title="Home" />
 
-<body>
-  <div>
-    <nav class="navbar" role="navigation" aria-label="main navigation">
-      <div id="nav-inner" class="container navbar-brand">
-        <a href="/">
-          <img id="logo" src="/ipl-images/perth-ipl-logo.svg" alt="Perth IPL Centre Logo">
-        </a>
-
-        <a role="button" class="navbar-burger burger" aria-label="menu" aria-expanded="false"
-          data-target="navbarBasicExample">
-          <span aria-hidden="true"></span>
-          <span aria-hidden="true"></span>
-          <span aria-hidden="true"></span>
-        </a>
-
-
-        <div id="navbarBasicExample" class="navbar-menu">
-          <div class="navbar-end">
-            <a href="#what-is-ipl" class="navbar-item">
-              What Is IPL?
-            </a>
-
-            <a href="#ipl-treatments" class="navbar-item">
-              IPL Treatments
-            </a>
-
-            <a href="#about-ipl" class="navbar-item">
-              About IPL
-            </a>
-
-            <a href="#contact-us" class="navbar-item">
-              Contact Us
-            </a>
-
-
-          </div>
-          <div class="navbar-item">
-            <div class="buttons">
-              <a class="book-online button is-primary" rel="nofollow"
-                href="https://janabeautysalon.mylocalsalon.com/onlinebooking/v7410/Steps/SelectServices.aspx">
-                <strong>Book Online</strong>
-              </a>
-            </div>
-          </div>
-        </div>
-      </div>
-    </nav>
-  </div>
-
-  <main>
     <section class="hero is-medium  no-gap-v"
       style="background-size: cover; background-image: url('/ipl-images/ipl-hero.jpg')">
       <div class="hero-body">
@@ -89,8 +28,8 @@ const IndexPage = () => (
     </section>
 
 
-    <!-- >>>  Entry Text  <<<  -->
-    <div class="main-section">
+    
+    
       <section class="entry-text">
         <div class="feat-container container">
           <div class="feat-columns columns">
@@ -99,17 +38,14 @@ const IndexPage = () => (
               <h4 class="f4 fw3">Cutting Edge SHR Intense Pulsed Light Technology</h4>
             </div>
           </div>
+          </div>
       </section>
-    </div>
+    
 
-    <!-- 
-      >>> START: Tile Row
-      >>> ROW: 1
-      >>> SIDE: Right Image
--->
+    
     <section id="what-is-ipl" class="tile-row tile-row-right">
 
-      <!-- Text Block -->
+      
       <div class="tile-text tile-text--right">
 
         <div class="tile-wrap tile-wrap__right">
@@ -123,21 +59,19 @@ const IndexPage = () => (
           </div>
         </div>
 
-        <!-- Tile Image -->
+        
         <picture class="tile-pic tile-pic--right">
-          <source srcset="/ipl-images/face.jpg 1x">
-          <source srcset="/ipl-images/webp/face.webp">
-          <img src="/ipl-images/face.jpg" alt="IPL Hair Removal Machine Treating Face">
+          <source srcset="/ipl-images/face.jpg 1x" />
+          <source srcset="/ipl-images/webp/face.webp" />
+          <img src="/ipl-images/face.jpg" alt="IPL Hair Removal Machine Treating Face" />
         </picture>
       </div>
     </section>
-    <!-- 
-      END Tile Row: 1 <<<
--->
 
 
 
-    <!--  >>>  Types of Treatment   <<<   -->
+
+
     <section id="ipl-treatments" class="mid-section section">
       <div class="feat-container container">
         <div class="feat-heading">
@@ -152,16 +86,16 @@ const IndexPage = () => (
                 <div class="feat-box--wrap">
 
                   <picture class="feat-pic">
-                    <source srcset="/ipl-images/hair-removal.jpeg 1x">
-                    <source srcset="/ipl-images/webp/hair-removal.webp">
-                    <img src="/ipl-images/hair-removal.jpeg" alt="hair removal treatment">
+                    <source srcset="/ipl-images/hair-removal.jpeg 1x" />
+                    <source srcset="/ipl-images/webp/hair-removal.webp" />
+                    <img src="/ipl-images/hair-removal.jpeg" alt="hair removal treatment" />
                   </picture>
 
                   <div class="feat-box-title--wrap">
                     <h3 class="f3 feat-box--titles">Hair Removal</h3>
                   </div>
                   <h4 class="feat-box--text">IPL uses a broad spectrum of light to permanently remove unwanted body hair
-                  </h4 class="feat-box--text">
+                  </h4>
                 </div>
               </div>
             </div>
@@ -171,16 +105,15 @@ const IndexPage = () => (
                 <div class="feat-box--wrap">
 
                   <picture class="feat-pic">
-                    <source srcset="/ipl-images/scar-reduction.jpeg 1x">
-                    <source srcset="/ipl-images/webp/scar-reduction.webp">
-                    <img src="ipl-images/scar-reduction.jpeg" alt="scar reduction treatment">
+                    <source srcset="/ipl-images/scar-reduction.jpeg 1x" />
+                    <source srcset="/ipl-images/webp/scar-reduction.webp" />
+                    <img src="ipl-images/scar-reduction.jpeg" alt="scar reduction treatment" />
                   </picture>
 
                   <div class="feat-box-title--wrap">
                     <h3 class="f3 feat-box--titles">Scar Reduction</h3>
                   </div>
-                  <h4 class="feat-box--text">IPL is able to effectively reduce the height, discolouration, and hardness
-                    of scarred tissue.</h4 class="feat-box--text">
+                  <h4 class="feat-box--text">IPL is able to effectively reduce the height, discolouration, and hardness of scarred tissue.</h4>
 
                 </div>
               </div>
@@ -190,16 +123,16 @@ const IndexPage = () => (
                 <div class="feat-box--wrap">
 
                   <picture class="feat-pic">
-                    <source srcset="/ipl-images/skin-rejuvenation.jpeg 1x">
-                    <source srcset="/ipl-images/webp/skin-rejuvenation.webp">
-                    <img src="/ipl-images/skin-rejuvenation.jpeg" alt="ipl machine treating skin">
+                    <source srcset="/ipl-images/skin-rejuvenation.jpeg 1x" />
+                    <source srcset="/ipl-images/webp/skin-rejuvenation.webp" />
+                    <img src="/ipl-images/skin-rejuvenation.jpeg" alt="ipl machine treating skin" />
                   </picture>
 
                   <div class="feat-box-title--wrap">
                     <h3 class="f3 feat-box--titles">Skin Rejuvenation</h3>
                   </div>
                   <h4 class="feat-box--text">IPL Photorejuvenation is a versatile treatment that can reduce the signs of
-                    aging and improve skin tone.</h4 class="feat-box--text">
+                    aging and improve skin tone.</h4>
                 </div>
               </div>
             </div>
@@ -214,9 +147,9 @@ const IndexPage = () => (
                 <div class="feat-box--wrap">
 
                   <picture class="feat-pic">
-                    <source srcset="/ipl-images/skin-tightening.jpeg 1x">
-                    <source srcset="/ipl-images/webp/skin-tightening.webp">
-                    <img src="/ipl-images/skin-tightening.jpeg" alt="ipl machine tightening skin">
+                    <source srcset="/ipl-images/skin-tightening.jpeg 1x" />
+                    <source srcset="/ipl-images/webp/skin-tightening.webp" />
+                    <img src="/ipl-images/skin-tightening.jpeg" alt="ipl machine tightening skin" />
                   </picture>
 
                   <div class="feat-box-title--wrap">
@@ -224,7 +157,7 @@ const IndexPage = () => (
 
                   </div>
                   <h4 class="feat-box--text">IPL is able to take years of your appearane through it's unique ability to
-                    tighten and firm skin.</h4 class="feat-box--text">
+                    tighten and firm skin.</h4>
                 </div>
 
               </div>
@@ -235,17 +168,16 @@ const IndexPage = () => (
                 <div class="feat-box--wrap">
 
                   <picture class="feat-pic">
-                    <source srcset="/ipl-images/pigmentation.jpeg 1x">
-                    <source srcset="/ipl-images/webp/pigmentation.webp">
-                    <img src="/ipl-images/pigmentation.jpeg" alt="pigmentation reduction treatment">
+                    <source srcset="/ipl-images/pigmentation.jpeg 1x" />
+                    <source srcset="/ipl-images/webp/pigmentation.webp" />
+                    <img src="/ipl-images/pigmentation.jpeg" alt="pigmentation reduction treatment" />
                   </picture>
 
                   <div class="feat-box-title--wrap">
                     <h3 class="f3 feat-box--titles">Pigmentation Reduction</h3>
 
                   </div>
-                  <h4 class="feat-box--text">IPL can be used to treat uneven, or unnatural looking pigmentation problems
-                    and even skin tones.</h4 class="feat-box--text">
+                  <h4 class="feat-box--text">IPL can be used to treat uneven, or unnatural looking pigmentation problems and even skin tones.</h4>
                 </div>
               </div>
             </div>
@@ -257,17 +189,16 @@ const IndexPage = () => (
                 <div class="feat-box--wrap">
 
                   <picture class="feat-pic">
-                    <source srcset="/ipl-images/stretch-mark-reduction.jpeg 1x">
-                    <source srcset="/ipl-images/webp/stretch-mark-reduction.webp">
-                    <img src="/ipl-images/stretch-mark-reduction.jpeg" alt="stretch marks being treated with ipl">
+                    <source srcset="/ipl-images/stretch-mark-reduction.jpeg 1x" />
+                    <source srcset="/ipl-images/webp/stretch-mark-reduction.webp" />
+                    <img src="/ipl-images/stretch-mark-reduction.jpeg" alt="stretch marks being treated with ipl" />
                   </picture>
 
                   <div class="feat-box-title--wrap">
                     <h3 class="f3 feat-box--titles">Stretchmark Reduction</h3>
 
                   </div>
-                  <h4 class="feat-box--text">IPL improves the appearance of stretch marks by stimulating new collagen
-                    production and tightening the skin.</h4 class="feat-box--text">
+                  <h4 class="feat-box--text">IPL improves the appearance of stretch marks by stimulating new collagen production and tightening the skin.</h4>
                 </div>
               </div>
 
@@ -277,14 +208,8 @@ const IndexPage = () => (
       </div>
     </section>
 
-    <!-- 
-      >>> START: Tile Row
-      >>> ROW: 2 
-      >>> SIDE: Left Image
-    -->
     <section id="tile-row-1" class="tile-row tile-row-left">
 
-      <!-- Text Block -->
       <div style="z-index: -100000" class="tile-text tile-text--left">
         <div class="tile-wrap tile-wrap__left">
           <div class="tile-inner tile-text--inner__left">
@@ -298,11 +223,10 @@ const IndexPage = () => (
           </div>
         </div>
 
-        <!-- Tile Image -->
         <picture style="z-index: 100000" class="tile-pic tile-pic--left">
-          <source srcset="/ipl-images/leg.jpg 1x">
-          <source srcset="/ipl-images/webp/leg.webp">
-          <img src="/ipl-images/leg.jpg" alt="leg being treated with ipl machine">
+          <source srcset="/ipl-images/leg.jpg 1x" />
+          <source srcset="/ipl-images/webp/leg.webp" />
+          <img src="/ipl-images/leg.jpg" alt="leg being treated with ipl machine" />
         </picture>
 
       </div>
@@ -329,6 +253,7 @@ const IndexPage = () => (
                   In today’s society, clients want a fast, visible solution and so are moving away from basic beauty
                   treatments and towards the new technology of IPL.
                 </p>
+                </div>
                 <div class="paragraph">
                   <h4 class="f3">
                     IPL's results are proven and include:
@@ -340,6 +265,7 @@ const IndexPage = () => (
                     <li>Removal of pigmented lesions and UV damage</li>
                     <li>Permanent reduction of unwanted hair</li>
                   </ul>
+                  </div>
 
                   <div class="paragraph">
                     <h4 class="f3">IPL skin treatments work by using Photorejuvenation:</h4>
@@ -352,6 +278,7 @@ const IndexPage = () => (
                       <li>Produces long-lasting results</li>
                     </ul>
                   </div>
+
                   <div class="paragraph">
                     <p>
                       Photorejuvenation with IPL is the most versatile of all treatment options. People often schedule
@@ -362,6 +289,7 @@ const IndexPage = () => (
                       chest, and the hands as well, where sun damage is often most visible.
                     </p>
                   </div>
+
                   <div class="paragraph">
                     <h3 class="f3">
                       Getting Started With IPL Treatment
@@ -377,6 +305,7 @@ const IndexPage = () => (
                       improvement with excellent long-term results.
                     </p>
                   </div>
+
                   <div class="paragraph">
                     <h3 class="f3">
                       What to Expect From Your Treatment
@@ -400,13 +329,7 @@ const IndexPage = () => (
           </div>
     </section>
 
-    <!-- 
-      END Tile Row: 2 <<<
--->
 
-    <!-- 
-      >>> Contact NAP Row
--->
     <section id="ipl-prices" class="section">
       <div class="prices-heading">
         <h2 class="f2 tc">Women's IPL Hair Removal Prices</h2>
@@ -519,93 +442,6 @@ const IndexPage = () => (
         </div>
       </div>
     </section>
-
-  </main>
-  <footer>
-    <section id="contact-us" class="mid-section section">
-      <div class="nap-container container">
-        <div class="columns">
-          <div class="column pb5">
-            <div class="mv-auto">
-              <div>
-                <h5 class="f1 pv3">Contact Us</h5>
-                <p class="f3 pv2">Address:</p>
-                <p class="f4 fw3">
-                  439 Hay St, Subiaco WA 6008
-                </p>
-              </div>
-
-              <div>
-                <p class="f3 pt4">Phone:</p>
-                <p class="f4 fw3">
-                  <a href="tel:93881134">(08) 9388 1134</a>
-                </p>
-              </div>
-              <div>
-                <p class="f3 pt4">Email:</p>
-                <p class="f4 fw3">
-                  <a href="mailto:info@perthiplcentre.com.au">info@perthiplcentre.com.au</a>
-                </p>
-              </div>
-            </div>
-          </div>
-          <div class="column">
-            <div id="gmap">
-
-              <iframe
-                src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d13542.015167339001!2d115.8249798!3d-31.9472267!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x59e28362a89fc157!2sPerth%20IPL%20Centre!5e0!3m2!1sen!2sau!4v1579201633415!5m2!1sen!2sau"
-                width="auto" height="450" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-    <link rel="stylesheet" href="/css/bulma.css" />
-    <link rel="stylesheet" href="/css/tachyons.css" />
-    <link rel="stylesheet" href="/css/styles.css" />
-
-    <script>
-      document.addEventListener('DOMContentLoaded', () => {
-
-        // Get all "navbar-burger" elements
-        const navbarBurgers = Array.prototype.slice.call(document.querySelectorAll('.navbar-burger'), 0);
-
-        // Check if there are any navbar burgers
-        if (navbarBurgers.length > 0) {
-
-          // Add a click event on each of them
-          navbarBurgers.forEach(el => {
-            el.addEventListener('click', () => {
-
-              // Get the target from the "data-target" attribute
-              const target = el.dataset.target;
-              const target = document.getElementById(target);
-
-              // Toggle the "is-active" class on both the "navbar-burger" and the "navbar-menu"
-              el.classList.toggle('is-active');
-              target.classList.toggle('is-active');
-
-            });
-          });
-        }
-
-      });
-      (document).ready(function () {
-
-        // Check for click events on the navbar burger icon
-        (".navbar-burger").click(function () {
-
-          // Toggle the "is-active" class on both the "navbar-burger" and the "navbar-menu"
-          (".navbar-burger").toggleClass("is-active");
-          (".navbar-menu").toggleClass("is-active");
-
-        });
-      });
-    </script>
-  </footer>
-  </main>
-
-</html>
     <div style={{ maxWidth: `300px`, marginBottom: `1.45rem` }}>
       <Image />
     </div>

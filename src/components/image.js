@@ -29,4 +29,25 @@ const Image = () => {
   return <Img fluid={data.placeholderImage.childImageSharp.fluid} />
 }
 
+
+
+const Image = () => {
+  const data = useStaticQuery(graphql`
+    query {
+    file(relativePath: { eq: "headers/headshot.jpg" }) {
+      childImageSharp {
+        fixed(width: 125, height: 125) {
+          ...GatsbyImageSharpFixed
+        }
+      }
+    }
+  }
+`)
+return <Img
+  className="headshot"
+  fixed={data.file.childImageSharp.fixed}
+  alt="headshot"
+/>
+}
+
 export default Image

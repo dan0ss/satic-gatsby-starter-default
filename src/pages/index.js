@@ -2,7 +2,7 @@ import React from "react"
 import { Link } from "gatsby"
 
 import Layout from "../components/layout"
-import Zzz from "../components/image"
+import Image from "../components/image"
 import SEO from "../components/seo"
 
 const IndexPage = () => (
@@ -463,8 +463,12 @@ const IndexPage = () => (
       </div>
     </section>
     <div style={{ maxWidth: `300px`, marginBottom: `1.45rem` }}>
-      <Zzz />
+      <Image />
+      
     </div>
+    <Ipl />
+    <Ipl />
+    <Ipl />
     <Link to="/page-2/">Go to page 2</Link>
   </Layout>
 )

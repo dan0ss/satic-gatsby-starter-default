@@ -467,12 +467,12 @@ const IndexPage = () => (
       <Image />
       
     </div>
-    <Img
+    <Image
         className="headshot"
         fixed={data.file.childImageSharp.fixed}
         alt=""
       />
-      <Img
+      <Image
   className="headshot"
   fixed={data.file.childImageSharp.fixed}
   alt="headshot"

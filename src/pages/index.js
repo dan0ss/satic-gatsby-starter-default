@@ -466,16 +466,8 @@ const IndexPage = () => (
       <Image />
       
     </div>
-    <Image
-        className="headshot"
-        fixed={data.file.childImageSharp.fixed}
-        alt=""
-      />
-      <Image
-  className="headshot"
-  fixed={data.file.childImageSharp.fixed}
-  alt="headshot"
-/>
+
+
     <Link to="/page-2/">Go to page 2</Link>
   </Layout>
 )

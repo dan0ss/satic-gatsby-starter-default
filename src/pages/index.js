@@ -464,6 +464,7 @@ const IndexPage = () => (
     </section>
     <div style={{ maxWidth: `300px`, marginBottom: `1.45rem` }}>
       <Zzz />
+      <Treatment />
       
     </div>
 

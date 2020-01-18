@@ -32,7 +32,7 @@ const Image = () => {
 const Image = () => {
   const data = useStaticQuery(graphql`
     query {
-    file(relativePath: { eq: "headers/headshot.jpg" }) {
+    file(relativePath: { eq: "headshot.jpg" }) {
       childImageSharp {
         fixed(width: 125, height: 125) {
           ...GatsbyImageSharpFixed

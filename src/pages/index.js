@@ -16,7 +16,7 @@ const IndexPage = () => (
   <link rel="canonical" href="https://www.perthiplcentre.com.au/" />
   <link rel="icon" href="/ipl-images/perth-ipl-logo.svg" sizes="any" type="image/svg+xml">
   <link rel="sitemap" type="application/xml" href="/sitemap.xml">
-  <meta name="theme-color" content="#1f1f1f">
+  <meta name="theme-color" content="#1f1f1f" />
   
 </head>
 

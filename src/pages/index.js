@@ -3,7 +3,7 @@ import { Link } from "gatsby"
 
 import Layout from "../components/layout"
 import Image from "../components/image"
-import Treatment from "../images/ipl-hero.jpg"
+import TreatmentImg from "../images/ipl-hero.jpg"
 import SEO from "../components/seo"
 
 const IndexPage = () => (
@@ -465,7 +465,7 @@ const IndexPage = () => (
     </section>
     <div style={{ maxWidth: `300px`, marginBottom: `1.45rem` }}>
       <Image />
-      <Treatment />
+      <TreatmentImg />
       
     </div>
 

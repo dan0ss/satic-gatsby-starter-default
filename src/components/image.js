@@ -31,25 +31,3 @@ const Face = () => {
 }
 
 export default Face
-
-
-/* --- treatment.jpeg --- */
-const Treatment = () => {
-  const data = useStaticQuery(graphql`
-    query {
-      placeholderImage: file(relativePath: { eq: "treatment.jpeg" }) {
-        childImageSharp {
-          fluid(maxWidth: 300) {
-            ...GatsbyImageSharpFluid
-          }
-        }
-      }
-    }
-  `)
-
-  return <Img fluid={data.placeholderImage.childImageSharp.fluid} />
-}
-
-
-
-export default Treatment

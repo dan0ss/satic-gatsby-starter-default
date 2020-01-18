@@ -17,57 +17,7 @@ const IndexPage = () => (
   <link rel="icon" href="/ipl-images/perth-ipl-logo.svg" sizes="any" type="image/svg+xml">
   <link rel="sitemap" type="application/xml" href="/sitemap.xml">
   <meta name="theme-color" content="#1f1f1f">
-  <script type="application/ld+json">
-    {
-      "@context": "https://schema.org",
-      "@type": "BeautySalon",
-      "name": "Perth IPL Centre",
-      "image": "",
-      "@id": "",
-      "url": "https://www.perthiplcentre.com.au/",
-      "telephone": "+61893881134",
-      "priceRange": "",
-      "address": {
-        "@type": "PostalAddress",
-        "streetAddress": "439 Hay St",
-        "addressLocality": "Subiaco",
-        "addressRegion": "WA",
-        "postalCode": "6008",
-        "addressCountry": "AU"
-      },
-      "geo": {
-        "@type": "GeoCoordinates",
-        "latitude": -31.9472267,
-        "longitude": 115.8249798
-      },
-      "openingHoursSpecification": [{
-        "@type": "OpeningHoursSpecification",
-        "dayOfWeek": "Tuesday",
-        "opens": "09:00",
-        "closes": "17:30"
-      }, {
-        "@type": "OpeningHoursSpecification",
-        "dayOfWeek": "Wednesday",
-        "opens": "09:30",
-        "closes": "17:30"
-      }, {
-        "@type": "OpeningHoursSpecification",
-        "dayOfWeek": "Thursday",
-        "opens": "09:30",
-        "closes": "19:00"
-      }, {
-        "@type": "OpeningHoursSpecification",
-        "dayOfWeek": "Friday",
-        "opens": "09:30",
-        "closes": "17:00"
-      }, {
-        "@type": "OpeningHoursSpecification",
-        "dayOfWeek": "Saturday",
-        "opens": "09:00",
-        "closes": "17:00"
-      }]
-    }
-  </script>
+  
 </head>
 
 <body>

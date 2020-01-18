@@ -26,6 +26,7 @@ const Face = () => {
       }
     }
   `)
+  return <Img fluid={data.placeholderImage.childImageSharp.fluid} />
   }
   const Treatment = () => {
     const data = useStaticQuery(graphql`

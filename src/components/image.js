@@ -26,7 +26,7 @@ const Face = () => {
       }
     }
   `)
-
+  }
   const Treatment = () => {
     const data = useStaticQuery(graphql`
       query {
@@ -44,3 +44,4 @@ const Face = () => {
 }
 
 export default Face
+export default Treatment

@@ -40,8 +40,10 @@ const IndexPage = () => (
         <div class="feat-container container">
           <div class="feat-columns columns">
             <div class="tc pv4 column">
+
               <h3 class="f3 pb1 fw6">Permanent Hair Removal From $60</h3>
               <h4 class="f4 fw3">Cutting Edge SHR Intense Pulsed Light Technology</h4>
+
             </div>
           </div>
           </div>
@@ -65,26 +67,27 @@ const IndexPage = () => (
           </div>
         </div>
 
-        
         <picture class="tile-pic tile-pic--right">
           <source srcset="/ipl-images/face.jpg 1x" />
           <source srcset="/ipl-images/webp/face.webp" />
           <img src="/ipl-images/face.jpg" alt="IPL Hair Removal Machine Treating Face" />
         </picture>
+
       </div>
     </section>
 
 
-
-
-
     <section id="ipl-treatments" class="mid-section section">
       <div class="feat-container container">
+
         <div class="feat-heading">
+
           <h2 class="f2 tc pv2">What Conditions Does IPL Treat?</h2>
           <h3 class="f4 fw4 tc">This revolutionary technology that treats broken
             capillaries, uneven pigmentation, wrinkles, enlarged pores, sun damage, unwanted hair and much more.</h3>
+
         </div>
+
         <div class="feat-row">
           <div class="feat-columns columns">
             <div class="feat-column column">
@@ -100,8 +103,9 @@ const IndexPage = () => (
                   <div class="feat-box-title--wrap">
                     <h3 class="f3 feat-box--titles">Hair Removal</h3>
                   </div>
-                  <h4 class="feat-box--text">IPL uses a broad spectrum of light to permanently remove unwanted body hair
-                  </h4>
+
+                  <h4 class="feat-box--text">IPL uses a broad spectrum of light to permanently remove unwanted body hair</h4>
+
                 </div>
               </div>
             </div>
@@ -119,6 +123,7 @@ const IndexPage = () => (
                   <div class="feat-box-title--wrap">
                     <h3 class="f3 feat-box--titles">Scar Reduction</h3>
                   </div>
+                  
                   <h4 class="feat-box--text">IPL is able to effectively reduce the height, discolouration, and hardness of scarred tissue.</h4>
 
                 </div>
@@ -137,8 +142,9 @@ const IndexPage = () => (
                   <div class="feat-box-title--wrap">
                     <h3 class="f3 feat-box--titles">Skin Rejuvenation</h3>
                   </div>
-                  <h4 class="feat-box--text">IPL Photorejuvenation is a versatile treatment that can reduce the signs of
-                    aging and improve skin tone.</h4>
+
+                  <h4 class="feat-box--text">IPL Photorejuvenation is a versatile treatment that can reduce the signs of aging and improve skin tone.</h4>
+
                 </div>
               </div>
             </div>
@@ -160,10 +166,10 @@ const IndexPage = () => (
 
                   <div class="feat-box-title--wrap">
                     <h3 class="f3 feat-box--titles">Skin Tightening & Firming</h3>
-
                   </div>
-                  <h4 class="feat-box--text">IPL is able to take years of your appearane through it's unique ability to
-                    tighten and firm skin.</h4>
+
+                  <h4 class="feat-box--text">IPL is able to take years of your appearane through it's unique ability to tighten and firm skin.</h4>
+                
                 </div>
 
               </div>
@@ -181,9 +187,10 @@ const IndexPage = () => (
 
                   <div class="feat-box-title--wrap">
                     <h3 class="f3 feat-box--titles">Pigmentation Reduction</h3>
-
                   </div>
+
                   <h4 class="feat-box--text">IPL can be used to treat uneven, or unnatural looking pigmentation problems and even skin tones.</h4>
+
                 </div>
               </div>
             </div>
@@ -202,9 +209,10 @@ const IndexPage = () => (
 
                   <div class="feat-box-title--wrap">
                     <h3 class="f3 feat-box--titles">Stretchmark Reduction</h3>
-
                   </div>
+
                   <h4 class="feat-box--text">IPL improves the appearance of stretch marks by stimulating new collagen production and tightening the skin.</h4>
+                
                 </div>
               </div>
 
@@ -219,6 +227,7 @@ const IndexPage = () => (
       <div class="tile-text tile-text--left">
         <div class="tile-wrap tile-wrap__left">
           <div class="tile-inner tile-text--inner__left">
+
             <h2 class="f2">How Does IPL Work?</h2>
             <p>
               IPL is based on the same principle as laser treatment, though it is able to treat simultaneous problems at
@@ -226,6 +235,7 @@ const IndexPage = () => (
               is then selectively absorbed by the target tissue and whilst doing so, also protects the surrounding
               healthy tissue.
             </p>
+
           </div>
         </div>
 
@@ -237,33 +247,40 @@ const IndexPage = () => (
 
       </div>
 
-
     </section>
+
 
     <section id="about-ipl" class="mid-section section">
       <div class="feat-container container">
         <div class="feat-heading">
+
           <h2 class="f2 tc pv2">About IPL Treatment</h2>
+
         </div>
+
         <div class="about-row">
           <div class="about-columns columns">
             <div class="about-column column">
+              
               <div class="paragraph">
                 <p>
                   IPL allows most skin colours to be effectively treated by using a range of selectable light filters
                   and treatment parameters which are computer controlled for extreme efficiency.
                 </p>
               </div>
+
               <div class="paragraph">
                 <p>
                   In today’s society, clients want a fast, visible solution and so are moving away from basic beauty
                   treatments and towards the new technology of IPL.
                 </p>
                 </div>
+
                 <div class="paragraph">
                   <h4 class="f3">
                     IPL's results are proven and include:
                   </h4>
+
                   <ul class="bullets">
                     <li>Evens skin tones</li>
                     <li>Improvement of collagen, smoothing fine lines</li>
@@ -275,6 +292,7 @@ const IndexPage = () => (
 
                   <div class="paragraph">
                     <h4 class="f3">IPL skin treatments work by using Photorejuvenation:</h4>
+
                     <ul class="bullets">
                       <li>Photorejuvenation addresses skin conditions that are most visible</li>
                       <li>Treats the entire face as well as small spots</li>
@@ -300,6 +318,7 @@ const IndexPage = () => (
                     <h3 class="f3">
                       Getting Started With IPL Treatment
                     </h3>
+
                     <p>
                       The Perth IPL Centre will determine an IPL treatment plan for you, accounting for the number and
                       severity of skin conditions being treated, as well as skin type. On average, four to six
@@ -316,6 +335,7 @@ const IndexPage = () => (
                     <h3 class="f3">
                       What to Expect From Your Treatment
                     </h3>
+                    
                     <p>
                       Before treatment, a cold gel is usually applied to the areas to be treated and patients wear
                       protective eyewear. During treatment, a trained staff member gently applies the smooth glass

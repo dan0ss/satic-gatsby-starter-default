@@ -31,4 +31,4 @@ const Zzz = () => {
 
 
 
-export default Image
+export default Zzz

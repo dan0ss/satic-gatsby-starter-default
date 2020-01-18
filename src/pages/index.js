@@ -9,12 +9,7 @@ const IndexPage = () => (
   <Layout>
     <SEO title="Home" />
 
-    <section class="hero is-medium  no-gap-v"
-      style={{ 
-        backgroundSize: 'cover', 
-        backgroundImage: url('/ipl-images/ipl-hero.jpg')
-        }}
-        >
+    <section class="hero is-medium  no-gap-v">
 
       <div class="hero-body">
         <div class="container">
@@ -335,7 +330,7 @@ const IndexPage = () => (
                     <h3 class="f3">
                       What to Expect From Your Treatment
                     </h3>
-                    
+
                     <p>
                       Before treatment, a cold gel is usually applied to the areas to be treated and patients wear
                       protective eyewear. During treatment, a trained staff member gently applies the smooth glass

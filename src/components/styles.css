@@ -143,6 +143,11 @@ li  {
 /* --- Entry Banner --- */
 .pre-entry {}
 
+.hero {
+  background-size: cover;
+  background: url('/ipl-images/ipl-hero.jpg') !important;
+}
+
 section > .hero-body {
   margin-top: 2rem;
 }

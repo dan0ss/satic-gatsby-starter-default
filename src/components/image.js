@@ -29,8 +29,6 @@ const Image = () => {
   return <Img fluid={data.placeholderImage.childImageSharp.fluid} />
 }
 
-
-
 const Image = () => {
   const data = useStaticQuery(graphql`
     query {
@@ -43,11 +41,7 @@ const Image = () => {
     }
   }
 `)
-return <Img
-  className="headshot"
-  fixed={data.file.childImageSharp.fixed}
-  alt="headshot"
-/>
+return <Img fluid={data.placeholderImage.childImageSharp.fluid} />
 }
 
 export default Image

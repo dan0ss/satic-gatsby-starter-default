@@ -29,19 +29,6 @@ const Image = () => {
   return <Img fluid={data.placeholderImage.childImageSharp.fluid} />
 }
 
-const Image = () => {
-  const data = useStaticQuery(graphql`
-    query {
-    file(relativePath: { eq: "headshot.jpg" }) {
-      childImageSharp {
-        fixed(width: 125, height: 125) {
-          ...GatsbyImageSharpFixed
-        }
-      }
-    }
-  }
-`)
-return <Img fluid={data.placeholderImage.childImageSharp.fluid} />
-}
+
 
 export default Image

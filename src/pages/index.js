@@ -396,8 +396,6 @@ const IndexPage = () => (
 
               </tbody>
             </table>
-          
-          
         </div>
 
         <div class="price-table">
@@ -405,6 +403,7 @@ const IndexPage = () => (
             <div class="prices-heading">
               <h2 class="f2 tc pv0 mv0">Men's IPL Hair Removal Prices</h2>
             </div>
+
             <table>
               <thead>
                 <tr>

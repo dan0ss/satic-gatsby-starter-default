@@ -2,8 +2,7 @@ import React from "react"
 import { Link } from "gatsby"
 
 import Layout from "../components/layout"
-import Treatment from "../components/image/treatment.jpeg"
-import Face from "../components/image/face.jpg"
+import Image from "../components/image"
 import SEO from "../components/seo"
 
 const IndexPage = () => (
@@ -464,8 +463,8 @@ const IndexPage = () => (
       </div>
     </section>
     <div style={{ maxWidth: `300px`, marginBottom: `1.45rem` }}>
-      <Face />
-      <Treatment />
+      <Image />
+      <Image />
       
     </div>
 

@@ -27,6 +27,19 @@ const Face = () => {
     }
   `)
 
+  const Treatment = () => {
+    const data = useStaticQuery(graphql`
+      query {
+        placeholderImage: file(relativePath: { eq: "treatment.jpeg" }) {
+          childImageSharp {
+            fluid(maxWidth: 300) {
+              ...GatsbyImageSharpFluid
+            }
+          }
+        }
+      }
+    `)
+
   return <Img fluid={data.placeholderImage.childImageSharp.fluid} />
 }
 

@@ -463,8 +463,8 @@ const IndexPage = () => (
       </div>
     </section>
     <div style={{ maxWidth: `300px`, marginBottom: `1.45rem` }}>
-      <Image />
-      <Image />
+      <Img />
+      <Img />
     </div>
 
 

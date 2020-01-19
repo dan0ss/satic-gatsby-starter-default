@@ -24,7 +24,16 @@ const Image = () => {
         }
       }
     }
-  `)
+  query {
+    testImg: file(relativePath: { eq: "ipl-hero.jpg" }) {
+      childImageSharp {
+        fluid(maxWidth: 300) {
+          ...GatsbyImageSharpFluid
+        }
+      }
+    }
+  }
+`)
 
   return <Img fluid={data.placeholderImage.childImageSharp.fluid} />
 }

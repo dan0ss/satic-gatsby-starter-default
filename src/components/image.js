@@ -15,37 +15,5 @@ import Img from "gatsby-image"
 
 
 
-  export const fluidImage = graphql`
-      fragment fluidImage on File {
-        childImageSharp {
-          fluid(maxWidth: 1000) {
-            ...GatsbyImageSharpFluid
-          }
-        }
-      }
-    `;
-
-export const data = useStaticQuery(graphql`
-  query {
-    logoWhite: file(relativePath: { eq: "perthIplLogo.svg" }) {
-      ...fluidImage
-    }
-    iplHero: file(relativePath: { eq: "ipl-hero.jpg" }) {
-      ...fluidImage
-    }
-    faceIpl: file(relativePath: { eq: "face.jpg" }) {
-      ...fluidImage
-    }
-    mensIpl: file(relativePath: { eq: "hair-removal.jpeg" }) {
-      ...fluidImage
-    }
-    legsIpl: file(relativePath: { eq: "leg.jpg" }) {
-      ...fluidImage
-    }
-    pigmentationIpl: file(relativePath: { eq: "pigmentation.jpeg" }) {
-      ...fluidImage
-    }
-  }
-`)
-
+ 
 export default Img

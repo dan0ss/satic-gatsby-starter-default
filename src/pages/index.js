@@ -3,12 +3,13 @@ import { Link, graphql } from 'gatsby'
 import Img from 'gatsby-image'
 
 import Layout from '../components/layout'
+import SEO from '../components/layout'
 
 const IndexPage = (props) => (
   <Layout>
 <SEO title="Home" />
 
-<section class="hero is-medium  no-gap-v">
+<section class="hero is-medium no-gap-v" background={{ iplHero }} >
 
   <div class="hero-body">
     <div class="container">

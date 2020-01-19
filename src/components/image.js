@@ -45,6 +45,7 @@ import Img from "gatsby-image"
       ...fluidImage
     }
   }
+}
 `)
 
 export default Image

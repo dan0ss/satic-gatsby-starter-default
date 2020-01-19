@@ -1,6 +1,6 @@
 import React from "react"
 import { useStaticQuery, graphql } from "gatsby"
-import Image from "gatsby-image"
+import Img from "gatsby-image"
 
 /*
  * This component is built using `gatsby-image` to automatically serve optimized
@@ -14,20 +14,17 @@ import Image from "gatsby-image"
  */
 
 
-const Image = () => {
-  const data = useStaticQuery(graphql`
+
+  export const fluidImage = useStaticQuery(graphql`
     query {
-      placeholderImage: file(relativePath: { eq: "ipl-hero.jpg" }) {
+      fragment fluidImage on File {
         childImageSharp {
-          fluid(maxWidth: 300) {
+          fluid(maxWidth: 1000) {
             ...GatsbyImageSharpFluid
           }
         }
       }
-    }
-  `);
 
-export const Image = graphql`
   query {
     logoWhite: file(relativePath: { eq: "perthIplLogo.svg" }) {
       ...fluidImage
@@ -48,6 +45,6 @@ export const Image = graphql`
       ...fluidImage
     }
   }
-`}
+`)
 
 export default Image

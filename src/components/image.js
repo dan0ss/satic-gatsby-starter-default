@@ -25,7 +25,7 @@ import Img from "gatsby-image"
         }
       }
     }
-    `
+    `;
 
 export const pageQuery = useStaticQuery(graphql`
   query {
@@ -48,7 +48,6 @@ export const pageQuery = useStaticQuery(graphql`
       ...fluidImage
     }
   }
-}
 `)
 
 export default Image

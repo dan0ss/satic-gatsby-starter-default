@@ -1,9 +1,9 @@
 import React from 'react'
-
-import Img from '../components/image'
+import { Link, graphql } from 'gatsby'
+import Img from 'gatsby-image'
 
 import Layout from '../components/layout'
-import SEO from '../components/layout'
+import SEO from '../components/seo'
 
 const IndexPage = (props) => (
   <Layout>

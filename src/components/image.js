@@ -23,7 +23,6 @@ import Img from "gatsby-image"
           }
         }
       }
-    }
     `;
 
 export const pageQuery = useStaticQuery(graphql`

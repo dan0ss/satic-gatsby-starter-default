@@ -480,22 +480,22 @@ fragment fluidImage on File {
 
 export const pageQuery = graphql`
   query {
-    logoWhite: file(relativePath: { eq: "perthIplLogo.svg" }) {
+    logoWhite: file(relativePath: { eq: "images/perth-ipl-logo.svg" }) {
       ...fluidImage
     }
-    iplHero: file(relativePath: { eq: "ipl-hero.jpg" }) {
+    iplHero: file(relativePath: { eq: "images/ipl-hero.jpg" }) {
       ...fluidImage
     }
-    faceIpl: file(relativePath: { eq: "face.jpg" }) {
+    faceIpl: file(relativePath: { eq: "images/face.jpg" }) {
       ...fluidImage
     }
-    mensIpl: file(relativePath: { eq: "hair-removal.jpeg" }) {
+    mensIpl: file(relativePath: { eq: "images/hair-removal.jpeg" }) {
       ...fluidImage
     }
-    legsIpl: file(relativePath: { eq: "leg.jpg" }) {
+    legsIpl: file(relativePath: { eq: "images/leg.jpg" }) {
       ...fluidImage
     }
-    pigmentationIpl: file(relativePath: { eq: "pigmentation.jpeg" }) {
+    pigmentationIpl: file(relativePath: { eq: "images/pigmentation.jpeg" }) {
       ...fluidImage
     }
   }

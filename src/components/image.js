@@ -32,16 +32,16 @@ export const pageQuery = graphql`
     iplHero: file(relativePath: { eq: "ipl-hero.jpg" }) {
       ...fluidImage
     }
-    face: file(relativePath: { eq: "face.jpg" }) {
+    faceIpl: file(relativePath: { eq: "face.jpg" }) {
       ...fluidImage
     }
     mensIpl: file(relativePath: { eq: "hair-removal.jpeg" }) {
       ...fluidImage
     }
-    legs: file(relativePath: { eq: "leg.jpg" }) {
+    legsIpl: file(relativePath: { eq: "leg.jpg" }) {
       ...fluidImage
     }
-    pigmentation: file(relativePath: { eq: "pigmentation.jpeg" }) {
+    pigmentationIpl: file(relativePath: { eq: "pigmentation.jpeg" }) {
       ...fluidImage
     }
   }

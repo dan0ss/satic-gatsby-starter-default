@@ -14,17 +14,20 @@ import Image from "gatsby-image"
  */
 
 
-export const fluidImage = graphql`
-fragment fluidImage on File {
-  childImageSharp {
-    fluid(maxWidth: 1000) {
-      ...GatsbyImageSharpFluid
+const Image = () => {
+  const data = useStaticQuery(graphql`
+    query {
+      placeholderImage: file(relativePath: { eq: "ipl-hero.jpg" }) {
+        childImageSharp {
+          fluid(maxWidth: 300) {
+            ...GatsbyImageSharpFluid
+          }
+        }
+      }
     }
-  }
-}
-`;
+  `);
 
-export const pageQuery = graphql`
+export const Image = graphql`
   query {
     logoWhite: file(relativePath: { eq: "perthIplLogo.svg" }) {
       ...fluidImage
@@ -45,6 +48,6 @@ export const pageQuery = graphql`
       ...fluidImage
     }
   }
-`
+`}
 
 export default Image

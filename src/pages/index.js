@@ -7,8 +7,9 @@ import SEO from '../components/seo'
 
 const IndexPage = (props) => (
   <Layout>
-<SEO title="Home" />
-
+  <Img fluid={props.data.faceIpl.childImageSharp.fluid} />
+  <Img fluid={props.data.mensIpl.childImageSharp.fluid} />
+  <Img fluid={props.data.legsIpl.childImageSharp.fluid} />
 <section 
     class="hero is-medium no-gap-v" 
     style={{
@@ -466,12 +467,6 @@ const IndexPage = (props) => (
     </div>
   </div>
 </section>
-
-  <Img fluid={props.data.faceIpl.childImageSharp.fluid} />
-  <Img fluid={props.data.mensIpl.childImageSharp.fluid} />
-  <Img fluid={props.data.legsIpl.childImageSharp.fluid} />
-
-    
   </Layout>
 )
 

@@ -9,7 +9,11 @@ const IndexPage = (props) => (
   <Layout>
 <SEO title="Home" />
 
-<section class="hero is-medium no-gap-v" background={{ iplHero }} >
+<section 
+    class="hero is-medium no-gap-v" 
+    style={{
+      backgroundImage: `url({ iplHero })` 
+      }}>
 
   <div class="hero-body">
     <div class="container">

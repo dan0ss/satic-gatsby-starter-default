@@ -465,7 +465,7 @@ const IndexPage = () => (
     </section>
     <div style={{ maxWidth: `300px`, marginBottom: `1.45rem` }}>
       <Img />
-      <img src={testImg} />
+      <Img fixed={testImg} />
     </div>
 
 

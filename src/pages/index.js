@@ -25,7 +25,7 @@ fragment fluidImage on File {
       ...GatsbyImageSharpFluid
     }
   }
-}å
+}
 `;
 
 export const pageQuery = graphql`

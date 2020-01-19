@@ -486,7 +486,7 @@ fragment fluidImage on File {
     }
   }
 }
-`)
+`);
 
 export const pageQuery = useStaticQuery(graphql`
   query {

@@ -3,7 +3,6 @@ import { Link } from "gatsby"
 
 import Layout from "../components/layout"
 import Img from 'components/image'
-import testImg from "../images/face.jpg"
 import SEO from "../components/seo"
 
 const IndexPage = () => (
@@ -464,7 +463,6 @@ const IndexPage = () => (
       </div>
     </section>
     <div style={{ maxWidth: `300px`, marginBottom: `1.45rem` }}>
-      <Img />
       <Img fixed={testImg} />
       <Img fluid={props.data.imageOne.childImageSharp.fluid} />
       <Img fluid={props.data.imageTwo.childImageSharp.fluid} />

@@ -491,13 +491,19 @@ fragment fluidImage on File {
 export const pageQuery = useStaticQuery(graphql`
   query {
     imageOne: file(relativePath: { eq: "one.jpg" }) {
-      ...GatsbyImageSharpFluid
+      childImageSharp {
+        fluid(maxWidth: 300) {
+          ...GatsbyImageSharpFluid
     }
     imageTwo: file(relativePath: { eq: "two.jpg" }) {
-      ...GatsbyImageSharpFluid
+      childImageSharp {
+        fluid(maxWidth: 300) {
+          ...GatsbyImageSharpFluid
     }
     imageThree: file(relativePath: { eq: "three.jpg" }) {
-      ...GatsbyImageSharpFluid
+      childImageSharp {
+        fluid(maxWidth: 300) {
+          ...GatsbyImageSharpFluid
     }
   }
   `)

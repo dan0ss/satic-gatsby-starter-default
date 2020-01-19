@@ -486,10 +486,7 @@ fragment fluidImage on File {
     }
   }
 }
-`);
-
-export const pageQuery = useStaticQuery(graphql`
-  query {
+query {
     imageOne: file(relativePath: { eq: "one.jpg" }) {
       childImageSharp {
         fluid(maxWidth: 300) {
@@ -507,4 +504,3 @@ export const pageQuery = useStaticQuery(graphql`
     }
   }
   `)
-}

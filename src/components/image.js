@@ -28,23 +28,6 @@ const Image = () => {
 
   return <Img fluid={data.placeholderImage.childImageSharp.fluid} />
 }
-const Image = () => {
-  const data = useStaticQuery(graphql`
-    query {
-      ipleHero: file(relativePath: { eq: "face.jpg" }) {
-        childImageSharp {
-          fluid(maxWidth: 300) {
-            ...GatsbyImageSharpFluid
-          }
-        }
-      }
-    }
-  `)
-
-  return <Img fluid={data.ipleHero.childImageSharp.fluid} />
-}
-
-
 
 
 

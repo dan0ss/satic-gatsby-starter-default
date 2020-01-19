@@ -487,25 +487,14 @@ fragment fluidImage on File {
   }
 }
 query {
-    imageOne: file(relativePath: { eq: "one.jpg" }) {
-      childImageSharp {
-        fluid(maxWidth: 300) {
-          ...GatsbyImageSharpFluid
-    }
+  imageOne: file(relativePath: { eq: "one.jpg" }) {
+    ...fluidImage
+  }
+  imageTwo: file(relativePath: { eq: "two.jpg" }) {
+    ...fluidImage
+  }
+  imageThree: file(relativePath: { eq: "three.jpg" }) {
+    ...fluidImage
   }
 }
-    imageTwo: file(relativePath: { eq: "two.jpg" }) {
-      childImageSharp {
-        fluid(maxWidth: 300) {
-          ...GatsbyImageSharpFluid
-    }
-  }
-}
-    imageThree: file(relativePath: { eq: "three.jpg" }) {
-      childImageSharp {
-        fluid(maxWidth: 300) {
-          ...GatsbyImageSharpFluid
-    }
-  }
-}
-  `)
+`)

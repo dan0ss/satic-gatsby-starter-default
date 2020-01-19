@@ -35,7 +35,7 @@ export const pageQuery = graphql`
     face: file(relativePath: { eq: "face.jpg" }) {
       ...fluidImage
     }
-    mens-1: file(relativePath: { eq: "hair-removal.jpeg" }) {
+    mensIpl: file(relativePath: { eq: "hair-removal.jpeg" }) {
       ...fluidImage
     }
     legs: file(relativePath: { eq: "leg.jpg" }) {

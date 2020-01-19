@@ -47,5 +47,4 @@ export const pageQuery = graphql`
   }
 `
 
-
 export default Image

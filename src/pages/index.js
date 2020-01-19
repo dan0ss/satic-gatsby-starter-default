@@ -25,7 +25,7 @@ fragment fluidImage on File {
       ...GatsbyImageSharpFluid
     }
   }
-}
+}å
 `;
 
 export const pageQuery = graphql`
@@ -39,4 +39,4 @@ export const pageQuery = graphql`
     imageThree: file(relativePath: { eq: "three.jpg" }) {
       ...fluidImage
     }
-  }
+  

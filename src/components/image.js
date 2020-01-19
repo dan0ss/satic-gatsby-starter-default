@@ -48,4 +48,4 @@ export const data = useStaticQuery(graphql`
   }
 `)
 
-export default Image
+export default Img

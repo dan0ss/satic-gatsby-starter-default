@@ -41,7 +41,7 @@ const Image = () => {
     }
   `)
 
-  return <Img fluid={data.placeholderImage.childImageSharp.fluid} />
+  return <Img fluid={data.ipleHero.childImageSharp.fluid} />
 }
 
 

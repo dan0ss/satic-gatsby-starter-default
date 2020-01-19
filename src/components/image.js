@@ -16,7 +16,6 @@ import Img from "gatsby-image"
 
 
   export const fluidImage = graphql`
-    query {
       fragment fluidImage on File {
         childImageSharp {
           fluid(maxWidth: 1000) {
@@ -29,7 +28,6 @@ import Img from "gatsby-image"
 
 export const pageQuery = useStaticQuery(graphql`
   query {
-      fragment fluidImage on File {
     logoWhite: file(relativePath: { eq: "perthIplLogo.svg" }) {
       ...fluidImage
     }
@@ -49,7 +47,6 @@ export const pageQuery = useStaticQuery(graphql`
       ...fluidImage
     }
   }
-}
 `)
 
 export default Image

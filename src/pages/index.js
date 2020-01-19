@@ -467,9 +467,9 @@ const IndexPage = (props) => (
   </div>
 </section>
 <div style={{ maxWidth: `300px`, marginBottom: `1.45rem` }}>
-  <Img fluid={props.data.imageOne.childImageSharp.fluid} />
-  <Img fluid={props.data.imageTwo.childImageSharp.fluid} />
-  <Img fluid={props.data.imageThree.childImageSharp.fluid} />
+  <Img fluid={props.data.face.childImageSharp.fluid} />
+  <Img fluid={props.data.mensIpl.childImageSharp.fluid} />
+  <Img fluid={props.data.legs.childImageSharp.fluid} />
 </div>
     
   </Layout>

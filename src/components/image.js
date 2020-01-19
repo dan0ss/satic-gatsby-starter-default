@@ -25,7 +25,7 @@ import Img from "gatsby-image"
       }
     `;
 
-export const Image = useStaticQuery(graphql`
+export const data = useStaticQuery(graphql`
   query {
     logoWhite: file(relativePath: { eq: "perthIplLogo.svg" }) {
       ...fluidImage

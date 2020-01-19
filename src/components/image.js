@@ -15,7 +15,7 @@ import Img from "gatsby-image"
 
 
 
-  export const fluidImage = useStaticQuery(graphql`
+  export const pageQuery = useStaticQuery(graphql`
     query {
       fragment fluidImage on File {
         childImageSharp {

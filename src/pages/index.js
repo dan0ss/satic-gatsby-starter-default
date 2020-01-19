@@ -39,4 +39,5 @@ export const pageQuery = graphql`
     imageThree: file(relativePath: { eq: "three.jpg" }) {
       ...fluidImage
     }
-  
+  }
+`

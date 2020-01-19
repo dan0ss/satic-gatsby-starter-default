@@ -507,3 +507,4 @@ export const pageQuery = useStaticQuery(graphql`
     }
   }
   `)
+}

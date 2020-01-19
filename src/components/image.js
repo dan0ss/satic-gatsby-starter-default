@@ -26,7 +26,7 @@ fragment fluidImage on File {
 
 export const pageQuery = graphql`
   query {
-    logo-White: file(relativePath: { eq: "perthIplLogo.svg" }) {
+    logoWhite: file(relativePath: { eq: "perthIplLogo.svg" }) {
       ...fluidImage
     }
     iplHero: file(relativePath: { eq: "ipl-hero.jpg" }) {

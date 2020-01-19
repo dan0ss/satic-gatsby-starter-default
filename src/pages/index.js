@@ -466,11 +466,11 @@ const IndexPage = (props) => (
     </div>
   </div>
 </section>
-<div style={{ maxWidth: `300px`, marginBottom: `1.45rem` }}>
+
   <Img fluid={props.data.faceIpl.childImageSharp.fluid} />
   <Img fluid={props.data.mensIpl.childImageSharp.fluid} />
   <Img fluid={props.data.legsIpl.childImageSharp.fluid} />
-</div>
+
     
   </Layout>
 )

@@ -29,6 +29,7 @@ import Img from "gatsby-image"
 
 export const pageQuery = useStaticQuery(graphql`
   query {
+      fragment fluidImage on File {
     logoWhite: file(relativePath: { eq: "perthIplLogo.svg" }) {
       ...fluidImage
     }
@@ -48,6 +49,7 @@ export const pageQuery = useStaticQuery(graphql`
       ...fluidImage
     }
   }
+}
 `)
 
 export default Image

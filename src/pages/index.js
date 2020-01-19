@@ -10,11 +10,7 @@ const IndexPage = (props) => (
   <Img fluid={props.data.faceIpl.childImageSharp.fluid} />
   <Img fluid={props.data.mensIpl.childImageSharp.fluid} />
   <Img fluid={props.data.legsIpl.childImageSharp.fluid} />
-<section 
-    class="hero is-medium no-gap-v" 
-    style={{
-      backgroundImage: `url({ iplHero })` 
-      }}>
+<section class="hero is-medium no-gap-v">
 
   <div class="hero-body">
     <div class="container">
@@ -32,7 +28,7 @@ const IndexPage = (props) => (
       </div>
     </div>
   </div>
-</section>
+  </section>
 
 
   <section class="entry-text">

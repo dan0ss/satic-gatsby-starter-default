@@ -36,7 +36,7 @@ export const pageQuery = graphql`
       ...fluidImage
     }
   }
-  leg: file(relativePath: { eq: "leg.jpg" }) {
+  legIpl: file(relativePath: { eq: "leg.jpg" }) {
     ...fluidImage
   }
 }

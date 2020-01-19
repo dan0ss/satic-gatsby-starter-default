@@ -26,28 +26,25 @@ fragment fluidImage on File {
 
 export const pageQuery = graphql`
   query {
+    logo-White: file(relativePath: { eq: "perthIplLogo.svg" }) {
+      ...fluidImage
+    }
     iplHero: file(relativePath: { eq: "ipl-hero.jpg" }) {
       ...fluidImage
     }
     face: file(relativePath: { eq: "face.jpg" }) {
       ...fluidImage
     }
-    hairRemoval: file(relativePath: { eq: "hair-removal.jpeg" }) {
+    mens-1: file(relativePath: { eq: "hair-removal.jpeg" }) {
+      ...fluidImage
+    }
+    legs: file(relativePath: { eq: "leg.jpg" }) {
+      ...fluidImage
+    }
+    pigmentation: file(relativePath: { eq: "pigmentation.jpeg" }) {
       ...fluidImage
     }
   }
-  legIpl: file(relativePath: { eq: "leg.jpg" }) {
-    ...fluidImage
-  }
-}
-imageThree: file(relativePath: { eq: "perthIplLogo.svg" }) {
-  ...fluidImage
-}
-}
-imageThree: file(relativePath: { eq: "pigmentation.jpeg" }) {
-  ...fluidImage
-}
-}
 `
 
 

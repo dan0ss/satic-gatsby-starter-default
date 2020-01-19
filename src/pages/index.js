@@ -492,15 +492,20 @@ query {
         fluid(maxWidth: 300) {
           ...GatsbyImageSharpFluid
     }
+  }
+}
     imageTwo: file(relativePath: { eq: "two.jpg" }) {
       childImageSharp {
         fluid(maxWidth: 300) {
           ...GatsbyImageSharpFluid
     }
+  }
+}
     imageThree: file(relativePath: { eq: "three.jpg" }) {
       childImageSharp {
         fluid(maxWidth: 300) {
           ...GatsbyImageSharpFluid
     }
   }
+}
   `)

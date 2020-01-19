@@ -30,13 +30,22 @@ fragment fluidImage on File {
 
 export const pageQuery = graphql`
   query {
-    imageOne: file(relativePath: { eq: "one.jpg" }) {
+    logoWhite: file(relativePath: { eq: "../images/perth-ipl-centre.svg" }) {
       ...fluidImage
     }
-    imageTwo: file(relativePath: { eq: "two.jpg" }) {
+    iplHero: file(relativePath: { eq: "../images/layoutipl-hero.jpg" }) {
       ...fluidImage
     }
-    imageThree: file(relativePath: { eq: "three.jpg" }) {
+    faceIpl: file(relativePath: { eq: "../images/face.jpg" }) {
+      ...fluidImage
+    }
+    mensIpl: file(relativePath: { eq: "../images/hair-removal.jpeg" }) {
+      ...fluidImage
+    }
+    legsIpl: file(relativePath: { eq: "../images/leg.jpg" }) {
+      ...fluidImage
+    }
+    pigmentationIpl: file(relativePath: { eq: "../images/pigmentation.jpeg" }) {
       ...fluidImage
     }
   }

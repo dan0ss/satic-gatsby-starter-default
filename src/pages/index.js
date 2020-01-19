@@ -10,9 +10,9 @@ const IndexPage = (props) => (
     <p>Welcome to your new Gatsby site.</p>
     <p>Now go build something great.</p>
     <Link to="/page-2/">Go to page 2</Link>
-    <Img fluid={props.data.imageOne.childImageSharp.fluid} />
-    <Img fluid={props.data.imageTwo.childImageSharp.fluid} />
-    <Img fluid={props.data.imageThree.childImageSharp.fluid} />
+    <Img fluid={props.data.logoWhite.childImageSharp.fluid} />
+    <Img fluid={props.data.iplHero.childImageSharp.fluid} />
+    <Img fluid={props.data.faceIpl.childImageSharp.fluid} />
   </Layout>
 )
 

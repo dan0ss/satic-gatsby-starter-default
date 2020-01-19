@@ -478,7 +478,7 @@ const IndexPage = () => (
 
 export default IndexPage
 
-export const fluidImage = graphql`
+export const fluidImage = useStaticQuery(graphql`
 fragment fluidImage on File {
   childImageSharp {
     fluid(maxWidth: 1000) {
@@ -486,18 +486,18 @@ fragment fluidImage on File {
     }
   }
 }
-`;
+`);
 
-export const pageQuery = graphql`
+export const pageQuery = useStaticQuery(graphql`
   query {
     imageOne: file(relativePath: { eq: "one.jpg" }) {
-      ...fluidImage
+      ...GatsbyImageSharpFluid
     }
     imageTwo: file(relativePath: { eq: "two.jpg" }) {
-      ...fluidImage
+      ...GatsbyImageSharpFluid
     }
     imageThree: file(relativePath: { eq: "three.jpg" }) {
-      ...fluidImage
+      ...GatsbyImageSharpFluid
     }
   }
-  `
+  `)

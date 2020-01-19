@@ -25,7 +25,7 @@ const Image = () => {
       }
     }
   query {
-    testImg: file(relativePath: { eq: "ipl-hero.jpg" }) {
+    testImg: file(relativePath: { eq: "macine.jpg" }) {
       childImageSharp {
         fluid(maxWidth: 300) {
           ...GatsbyImageSharpFluid

@@ -31,7 +31,7 @@ const Image = () => {
 const Image = () => {
   const data = useStaticQuery(graphql`
     query {
-      ipleHero: file(relativePath: { eq: "ipl-hero.jpg" }) {
+      ipleHero: file(relativePath: { eq: "face.jpg" }) {
         childImageSharp {
           fluid(maxWidth: 300) {
             ...GatsbyImageSharpFluid

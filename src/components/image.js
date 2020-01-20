@@ -26,13 +26,13 @@ fragment fluidImage on File {
 
 export const pageQuery = graphql`
   query {
-    perthIplLogo: file(relativePath: { eq: "perth-ipl-logo.jpg" }) {
+    perthIplLogo: file(relativePath: { eq: "images/perth-ipl-logo.jpg" }) {
       ...fluidImage
     }
-    faceIpl: file(relativePath: { eq: "face.jpg" }) {
+    faceIpl: file(relativePath: { eq: "images/face.jpg" }) {
       ...fluidImage
     }
-    machineIpl: file(relativePath: { eq: "machine.jpg" }) {
+    machineIpl: file(relativePath: { eq: "images/machine.jpg" }) {
       ...fluidImage
     }
   }

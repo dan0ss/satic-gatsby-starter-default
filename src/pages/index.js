@@ -2,7 +2,6 @@ import React from 'react'
 import { Link, graphql } from 'gatsby'
 import Img from 'gatsby-image'
 
-
 import Layout from '../components/layout'
 
 const IndexPage = (props) => (
@@ -18,3 +17,27 @@ const IndexPage = (props) => (
 )
 
 export default IndexPage
+
+export const fluidImage = graphql`
+fragment fluidImage on File {
+  childImageSharp {
+    fluid(maxWidth: 1000) {
+      ...GatsbyImageSharpFluid
+    }
+  }
+}
+`;
+
+export const pageQuery = graphql`
+  query {
+    logoIpl: file(relativePath: { eq: "perth-ipl-logo.jpg" }) {
+      ...fluidImage
+    }
+    faceIpl: file(relativePath: { eq: "face.jpg" }) {
+      ...fluidImage
+    }
+    machineIpl: file(relativePath: { eq: "machine.jpg" }) {
+      ...fluidImage
+    }
+  }
+  `

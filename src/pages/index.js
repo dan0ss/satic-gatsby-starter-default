@@ -10,9 +10,9 @@ const IndexPage = (props) => (
     <p>Welcome to your new Gatsby site.</p>
     <p>Now go build something great.</p>
     <Link to="/page-2/">Go to page 2</Link>
-    <Img fluid={props.data.imageOne.childImageSharp.fluid} />
-    <Img fluid={props.data.imageTwo.childImageSharp.fluid} />
-    <Img fluid={props.data.imageThree.childImageSharp.fluid} />
+    <Img fluid={props.data.logoIpl.childImageSharp.fluid} />
+    <Img fluid={props.data.faceIpl.childImageSharp.fluid} />
+    <Img fluid={props.data.machineIpl.childImageSharp.fluid} />
   </Layout>
 )
 
@@ -30,13 +30,13 @@ fragment fluidImage on File {
 
 export const pageQuery = graphql`
   query {
-    imageOne: file(relativePath: { eq: "one.jpg" }) {
+    logoIpl: file(relativePath: { eq: "perth-ipl-logo.svg" }) {
       ...fluidImage
     }
-    imageTwo: file(relativePath: { eq: "two.jpg" }) {
+    faceIpl: file(relativePath: { eq: "face.jpg" }) {
       ...fluidImage
     }
-    imageThree: file(relativePath: { eq: "three.jpg" }) {
+    machineIpl: file(relativePath: { eq: "machine.jpg" }) {
       ...fluidImage
     }
   }

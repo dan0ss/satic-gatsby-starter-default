@@ -30,14 +30,14 @@ fragment fluidImage on File {
 
 export const pageQuery = graphql`
   query {
-    logoIpl: file(relativePath: { eq: "perth-ipl-logo.jpg" }) {
+    imageOne: file(relativePath: { eq: "one.jpg" }) {
       ...fluidImage
     }
-    faceIpl: file(relativePath: { eq: "face.jpg" }) {
+    imageTwo: file(relativePath: { eq: "two.jpg" }) {
       ...fluidImage
     }
-    machineIpl: file(relativePath: { eq: "machine.jpg" }) {
+    imageThree: file(relativePath: { eq: "three.jpg" }) {
       ...fluidImage
     }
   }
-  `
+`

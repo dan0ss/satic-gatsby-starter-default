@@ -10,9 +10,9 @@ const IndexPage = (props) => (
     <p>Welcome to your new Gatsby site.</p>
     <p>Now go build something great.</p>
     <Link to="/page-2/">Go to page 2</Link>
-    <Img fluid={props.data.logoWhite.childImageSharp.fluid} />
-    <Img fluid={props.data.iplHero.childImageSharp.fluid} />
-    <Img fluid={props.data.faceIpl.childImageSharp.fluid} />
+    <Img fluid={props.data.imageOne.childImageSharp.fluid} />
+    <Img fluid={props.data.imageTwo.childImageSharp.fluid} />
+    <Img fluid={props.data.imageThree.childImageSharp.fluid} />
   </Layout>
 )
 
@@ -30,23 +30,13 @@ fragment fluidImage on File {
 
 export const pageQuery = graphql`
   query {
-    logoWhite: file(relativePath: { eq: "images/perth-ipl-centre.svg" }) {
+    imageOne: file(relativePath: { eq: "one.jpg" }) {
       ...fluidImage
     }
-    iplHero: file(relativePath: { eq: "images/layoutipl-hero.jpg" }) {
+    imageTwo: file(relativePath: { eq: "two.jpg" }) {
       ...fluidImage
     }
-    faceIpl: file(relativePath: { eq: "images/face.jpg" }) {
-      ...fluidImage
-    }
-    mensIpl: file(relativePath: { eq: "images/hair-removal.jpeg" }) {
-      ...fluidImage
-    }
-    legsIpl: file(relativePath: { eq: "images/leg.jpg" }) {
-      ...fluidImage
-    }
-    pigmentationIpl: file(relativePath: { eq: "images/pigmentation.jpeg" }) {
+    imageThree: file(relativePath: { eq: "three.jpg" }) {
       ...fluidImage
     }
   }
-`
